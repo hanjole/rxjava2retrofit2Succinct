@@ -1,0 +1,2 @@
+# rxjava2retrofit2Succinct
+rxjava2retrofit2封装,使用retrofit结合rxjava进行网络请求  使用post json参数
