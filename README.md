@@ -2,10 +2,15 @@
 rxjava2retrofit2封装,使用retrofit结合rxjava进行网络请求  使用post json参数
 http://www.jianshu.com/p/9df6c7e3c39f
 
+
+复制粘贴 来的  有点乱 还是去看博客的好
+
+
 需求:服务端要求请求方式为post,传递参数为json格式
 在请求后台服务时,移动端又要每次携带固定参数
 普通的@post 然后通过@Query设置参数 无法满足需求
 经一番查询post Json需要通过okhttp中拦截器实现
+
 
    //post数据
  RequestBody body = RequestBody.create(MediaType.parse("application/json; charset=utf-8"), json.toString());
